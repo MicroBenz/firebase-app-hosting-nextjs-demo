@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        hostname: 'eldenring.fanapis.com'
+      }
+    ]
+  },
+};
 
 export default nextConfig;
